@@ -41,7 +41,7 @@ const Create = () => {
         e.preventDefault()
         console.log(postData)
 
-            fetch('http://localhost:4500/api/foods/create', {
+            fetch('https://foooodify.herokuapp.com/api/foods/create', {
                 method: 'POST',
                 headers: {
                     "Content-Type" : "application/json"
